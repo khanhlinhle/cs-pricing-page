@@ -1,0 +1,20 @@
+.title {
+    padding: 3rem 0;
+    width: 100%;
+    text-align: center;
+}
+
+.logo {
+    width: 120px;
+    height: 120px;
+    background-color: #f8f9fa;
+}
+
+.card-name-text {
+    font-size: 80%;
+}
+
+.your-cart-text {
+    display: flex;
+    justify-content: space-between;
+}
