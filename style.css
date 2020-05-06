@@ -1,0 +1,165 @@
+.navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar-nav .nav-item {
+    margin-left: 15px;
+    color: #212529;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 750px;
+}
+
+section .typewrite {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color: #cd4541;
+}
+
+.second-section {
+    background-color: #e9ebee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section-style {
+    width: 930px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+}
+
+.second-paragraph {
+    text-align: center;
+    color: #212529;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.btn-primary {
+    background-color: #cd4541;
+    text-align: right;
+}
+
+.third-section {
+    background-image: url(https://cs-pricing-page.netlify.app/img/banner.jpg);
+}
+
+.third-section-style {
+    text-align: center;
+    color: #212529;
+    font-weight: 400;
+    width: 1088px;
+    height: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.third-section-style h1 i {
+    margin-right: 10px;
+}
+
+.third-section-text {
+    font-size: 1.25rem;
+}
+
+.fourth-section {
+    background-color: #e9ebee;
+}
+
+.fourth-section-style {
+    text-align: center;
+    color: #212529;
+    font-weight: 400;
+    width: 930px;
+    height: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.fourth-section-text {
+    font-size: 25px;
+}
+
+.form-style {
+    margin-top: 0em;
+}
+
+.name-box {
+    display: flex;
+}
+
+.firstname-box {
+    width: 465px;
+    display: inline-block;
+    justify-content: flex-start;
+    padding-top: 10px;
+    padding-right: 10px;
+    font-weight: 400;
+}
+
+.lastname-box {
+    width: 465px;
+    display: inline-block;
+    justify-content: flex-end;
+    padding-top: 10px;
+    font-weight: 400;
+}
+
+.account-box {
+    display: flex;
+}
+
+.email-box {
+    width: 465px;
+    display: inline-block;
+    justify-content: flex-start;
+    padding-top: 10px;
+    padding-right: 10px;
+    font-weight: 400;
+}
+
+.password-box {
+    width: 465px;
+    display: inline-block;
+    justify-content: flex-end;
+    padding-top: 10px;
+    font-weight: 400;
+}
+
+.button-size {
+    width: 100%;
+    text-align: center;
+    border: 0;
+    margin-bottom: 50px;
+}
+
+.button-position {
+    text-align: right;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
