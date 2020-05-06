@@ -149,17 +149,16 @@ section .typewrite {
 
 .button-size {
     width: 100%;
-    text-align: center;
-    border: 0;
     margin-bottom: 50px;
-}
-
-.button-position {
-    text-align: right;
 }
 
 footer {
     text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+.btn-primary {
+    text-align: center;
+    border: 0;
 }
