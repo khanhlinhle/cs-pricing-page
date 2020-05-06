@@ -105,10 +105,6 @@ section .typewrite {
     margin-top: 0em;
 }
 
-.name-box {
-    display: flex;
-}
-
 .firstname-box {
     width: 465px;
     display: inline-block;
@@ -119,27 +115,6 @@ section .typewrite {
 }
 
 .lastname-box {
-    width: 465px;
-    display: inline-block;
-    justify-content: flex-end;
-    padding-top: 10px;
-    font-weight: 400;
-}
-
-.account-box {
-    display: flex;
-}
-
-.email-box {
-    width: 465px;
-    display: inline-block;
-    justify-content: flex-start;
-    padding-top: 10px;
-    padding-right: 10px;
-    font-weight: 400;
-}
-
-.password-box {
     width: 465px;
     display: inline-block;
     justify-content: flex-end;
