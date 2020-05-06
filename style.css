@@ -1,6 +1,5 @@
 .navbar {
     position: fixed;
-    width: 100%;
     z-index: 100;
 }
 
@@ -13,113 +12,54 @@
 }
 
 section {
+    padding: 25px;
+    min-height: 800px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    height: 750px;
+    text-align: center;
+}
+
+section:nth-child(even) {
+    background-color: #e9ebee;
 }
 
 section .typewrite {
-    font-size: 40px;
-    font-weight: bold;
-    text-align: center;
+    /* font-size: 40px;
+    font-weight: bold; */
+    font-size: 2.5rem;
+    font-weight: 500;
     color: #cd4541;
 }
 
-.second-section {
-    background-color: #e9ebee;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-.section-style {
-    width: 930px;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: 20px;
-}
-
 .second-paragraph {
-    text-align: center;
     color: #212529;
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
 }
 
-.btn-primary {
-    background-color: #cd4541;
-    text-align: right;
+.card {
+    margin-bottom: 25px;
+    box-shadow: 0 10px 40px rgba(59, 43, 91, 0.3);
 }
 
 .third-section {
     background-image: url(https://cs-pricing-page.netlify.app/img/banner.jpg);
 }
 
-.third-section-style {
-    text-align: center;
-    color: #212529;
-    font-weight: 400;
-    width: 1088px;
-    height: 750px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-.third-section-style h1 i {
+.third-section h1 i {
     margin-right: 10px;
 }
 
-.third-section-text {
-    font-size: 1.25rem;
-}
-
-.fourth-section {
-    background-color: #e9ebee;
-}
-
-.fourth-section-style {
-    text-align: center;
-    color: #212529;
-    font-weight: 400;
-    width: 930px;
-    height: 750px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-.fourth-section-text {
+.fourth-section-last {
     font-size: 25px;
+    margin-bottom: 100px;
 }
 
 .form-style {
     margin-top: 0em;
-}
-
-.firstname-box {
-    width: 465px;
-    display: inline-block;
-    justify-content: flex-start;
-    padding-top: 10px;
-    padding-right: 10px;
-    font-weight: 400;
-}
-
-.lastname-box {
-    width: 465px;
-    display: inline-block;
-    justify-content: flex-end;
-    padding-top: 10px;
-    font-weight: 400;
 }
 
 .button-size {
